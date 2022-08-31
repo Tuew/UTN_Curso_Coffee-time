@@ -1,0 +1,42 @@
+#novedades{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.title-news{
+    color: #000;
+    text-align: center;
+}
+
+.card{
+    display: inline-flex;
+    margin-top: 15px;
+    border: 1px solid #b5916d;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+
+.novedades{
+    color: #000;
+    
+    
+}
+
+.novedades h1{
+    text-align: center;
+}
+
+.novedades h4{
+    color: #b5916d;
+    text-align: center;
+}
+
+.novedades img{
+    float: right;
+}
+

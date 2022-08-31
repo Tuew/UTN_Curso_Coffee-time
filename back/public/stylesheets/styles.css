@@ -1,0 +1,404 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: #130e12;
+    height: 65px;
+    border-bottom: 1px solid #000;
+
+}
+
+.header{
+    display: inline-flex ;
+    
+}
+
+.header h1{
+    padding-left: 25px;
+    padding-top: 3px;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    
+}
+
+.header img{
+    width: 75px;
+    height: 60px;
+    color: #a2a7a0;
+}
+
+.nav{
+    float: right;
+    margin-right: 35px;
+    padding-top: 7px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1px 15px;
+   
+}
+
+
+.nav li {
+    display: inline-block;
+    
+    
+}
+
+.nav a:hover{
+    color: #b5916d;
+}
+
+a.activo{
+   color: #b5916d;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+#img{
+    background: rgba(0,0,0,0.5) url(../img/fondo.jpg) repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bienvenidos{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 7.5rem;
+}
+
+.bienvenidos p{
+    padding-bottom: 15px;
+}
+
+.bienvenidos a{
+    border: 1px solid #b5916d;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    font-style: italic;
+}
+
+.bienvenidos a:hover{
+    color: #b5916d;
+    
+}
+
+
+#about{
+    background: rgba(0,0,0,0.8) url(../img/fondo2.jpg) repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+}
+
+
+.about{
+   display: flex;
+}
+
+.description{
+    text-align: center;
+    color: #fff;   
+}
+
+.description h1{
+    font-weight: 400;
+}
+
+.description p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+span{
+    color: #b5916d;
+    font-style: italic;
+}
+
+
+.staff h2{
+    margin-top: 1.5rem;
+    margin-bottom: 2.0rem;
+    text-decoration: underline #b5916d;
+}
+
+
+.historia p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.persona{
+    border: 1px solid #b5916d;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 50px rba(0,0,0,0.5);
+}
+
+.persona h5, .persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: #fff;
+}
+
+.persona p{
+    color: #b5916d;
+    font-size: 10px;
+}
+
+
+#servicios{
+    background: rgba(0,0,0,0.8) url(../img/fondo2.jpg) repeat scroll center center/cover;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: darken;
+}
+
+.title{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    
+}
+
+.title h1{
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.servicio{
+    border: 1px solid #b5916d;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 18px;
+    display: inline-flex;
+    width: 600px;
+    gap: 25px;
+    align-items: center;
+    
+}
+
+.servicio .info h4{
+    color: #b5916d;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #b5916d;
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+    border: 1px solid #b5916d;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+#galeria{
+    background: rgba(0,0,0,0.8) url(../img/fondo2.jpg) repeat scroll center center/cover;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: darken;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.galeria img{
+    max-width: 550px;
+    border: 1px solid #b5916d;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    max-height: 300px;
+    margin-left: 25px;
+    margin-right: 2%;
+    border-radius: 7px;
+}
+
+#novedades{
+    background: rgba(0,0,0,0.8) url(../img/fondo2.jpg) repeat scroll center center/cover;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: darken;
+    display: flex;
+}
+
+.novedades{
+    color: #fff;
+}
+
+.novedades h4{
+    color: #b5916d;
+}
+
+#contacto{
+    background: rgba(0,0,0,0.8) url(../img/fondo2.jpg) repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+    display: flex;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto h2{
+    color: #fff;
+    text-align: center;
+}
+
+.contacto div{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.datos h1{
+    font-size: 22px;
+}
+
+.datos{
+    color: #fff;
+}
+
+.datos p{
+    font-size: 17px;
+    
+}
+
+.datos ul li{
+    color: #b5916d;
+    list-style-type: disc;
+    margin-top: 35px;
+    font-size: 17px;
+}
+
+.datos ul li span{
+    font-size: 17px;
+    color: #fff;
+    font-style: normal;
+}
+
+.formulario p{
+    display: flex;
+    margin-left: 45px;
+}
+
+.formulario p label{
+    min-width: 80px;  
+}
+
+.formulario p label{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="text"] {
+    width: 465px;
+    height: 23px;
+    border: 1px solid #b5916d;
+}
+
+.formulario input[type="submit"] {
+    background: #b5916d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 17rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #130e12;
+    color: #b5916d;
+}
+
+
+footer{
+    background-color: #130e12;
+    border-top: 1px solid #000;
+    clear: both;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    
+}
+
+.name-login{
+    margin-bottom: 15px;
+}
+
+
+.a{
+    margin-top: 12px;
+}
+
+.cerrar-sesion{
+    
+}

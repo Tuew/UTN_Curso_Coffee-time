@@ -1,0 +1,36 @@
+<section class="vh-100">
+    <div class="container py-5 h-100">
+        <div class="row d-flex align-items-center justify-content-center h-100">
+            <div class="col-md-8 col-lg-7 col-xl-6">
+                <img src="/images/foto-login1.png"
+                    class="img-fluid" alt="Phone image">
+            </div>
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+
+                <h1 class="name-login">Login</h1>
+
+                <form action="/admin/login" method="post">
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="user" class="form-control form-control-lg" placeholder="User" name="usuario" />
+                        <label class="form-label a" for="user">User</label>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="pass" class="form-control form-control-lg" placeholder="Password" name="password" />
+                        <label class="form-label a" for="pass">Password</label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-lg" style="width: 527px; background-color: #b5916d;">Sign in</button>
+
+                </form>
+                {{#if error}}
+                    <p>Usuario y/o contraseña incorrectos</p>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+</section>
